@@ -20,7 +20,7 @@ class DrawerPageC extends StatelessWidget {
             ),
             child: Center(
               child: CircleAvatar(
-                backgroundImage: AssetImage("assets/profile.jpg"),
+                backgroundImage: AssetImage("assets/profil.JPG"),
                 radius: 80,
               ),
             ),

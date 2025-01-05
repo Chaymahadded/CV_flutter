@@ -2,10 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/cv_chayma/HomePageC.dart';
 import 'package:flutter_application_2/cv_fedi/HomePageF.dart';
+import 'package:flutter_application_2/splash.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: InitialPage(),
+    home: Splash(),
   ));
 }
 
@@ -20,6 +21,7 @@ class InitialPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       navigatorKey: navigatorKey,
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text('Login Page'),
