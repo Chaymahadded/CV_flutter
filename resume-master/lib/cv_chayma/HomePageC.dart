@@ -232,7 +232,7 @@ class _MyHomePageCState extends State<MyHomePageC> {
                     ClipRRect(
                         borderRadius: BorderRadius.circular(8),
                         child: Image.asset(
-                          'assets/profile.jpg',
+                          'assets/profil.JPG',
                           width: 60,
                           height: 60,
                         )),
